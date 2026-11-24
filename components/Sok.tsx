@@ -22,11 +22,7 @@ export default function Sok() {
   }
 
   const antall = resultat?.treff.length ?? 0;
-  const statusmelding = resultat
-    ? antall === 1
-      ? `1 treff for «${resultat.sokeord}»`
-      : `${antall} treff for «${resultat.sokeord}»`
-    : "";
+  const statusmelding = resultat ? `${antall} treff for «${resultat.sokeord}»` : "";
 
   return (
     <>

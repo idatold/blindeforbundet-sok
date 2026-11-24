@@ -17,7 +17,7 @@ API-et kan også testes direkte: http://localhost:3000/api/search?q=tur
 
 ## Teknologivalg
 
-Next.js (App Router) med React og TypeScript. Frontend og serverdel ligger i samme prosjekt, og det er den stacken Blindeforbundet selv bruker.
+Next.js (App Router) med React og TypeScript. Frontend og serverdel ligger i samme prosjekt, så hele løsningen startes med én kommando, og søkeresultatene har samme type (`Aktivitet`) både i API-et og i skjemaet.
 
 - `lib/aktiviteter.ts` – fast datasett med fem oppføringer og søkefunksjonen (delstrengmatching, ufølsom for store/små bokstaver).
 - `app/api/search/route.ts` – serverdelen. Leser `?q=` fra URL-en og returnerer treff som JSON.
