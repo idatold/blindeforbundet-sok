@@ -1,6 +1,6 @@
 # Et tilgjengelig søk
 
-Liten nettside der brukeren kan søke etter fiktive aktiviteter, kurs og møteplasser. Laget som hjemmeoppgave til intervju hos Norges Blindeforbund.
+En nettside der brukeren kan søke etter fiktive aktiviteter, kurs og møteplasser. Laget som hjemmeoppgave til intervju hos Norges Blindeforbund.
 
 ## Slik starter du løsningen
 
@@ -52,7 +52,7 @@ Next.js (App Router) med React og TypeScript. Frontend og serverdel ligger i sam
 - Zoom til 400 % i nettleseren: ingen horisontal scrolling, alt er lesbart.
 - VoiceOver i Safari: label leses ved fokus i feltet, antall treff annonseres etter søk, og fokus lander på resultatoverskriften.
 
-## Prioriteringer, hva som gjenstår og tidsbruk
+## Prioriteringer og hva som gjenstår
 
 **Prioritert:** selve søkeflyten og at den fungerer med tastatur, skjermleser og zoom. Lite kode som er lett å følge, framfor flere funksjoner.
 
@@ -64,8 +64,6 @@ Next.js (App Router) med React og TypeScript. Frontend og serverdel ligger i sam
 - Filtrering på aktivitetstype: jeg ville lagt til `type` som ekstra parameter i API-et, og en `<fieldset>` med radioknapper (eller en `<select>`) i skjemaet, slik at filteret sendes med samme skjema og samme statusmelding.
 - Progressiv forbedring: skjemaet kunne fungert uten JavaScript ved å la siden lese `?q=` direkte fra URL-en.
 - Automatiserte tester.
-
-**Tidsbruk:** ca. 90 minutter, inkludert oppsett og README.
 
 ## KI-bruk
 
