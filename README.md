@@ -15,6 +15,12 @@ npm run dev
 
 API-et kan også testes direkte: http://localhost:3000/api/search?q=tur
 
+**Eksempler på søk**
+- `kaffe` – to treff (ordet finnes i beskrivelsen)
+- `tur` – ett treff, «Skogstur i Østmarka» (delstreng)
+- `KURS` – to treff (ufølsom for store og små bokstaver)
+- `båt` – ingen treff
+
 ## Teknologivalg
 
 Next.js (App Router) med React og TypeScript. Frontend og serverdel ligger i samme prosjekt, så hele løsningen startes med én kommando, og søkeresultatene har samme type (`Aktivitet`) både i API-et og i skjemaet.
